@@ -1,0 +1,11 @@
+.grid{
+    &__column {
+        display: grid;
+        &--red{
+            background-color: red;
+        }
+        &--blue{
+            background-color: black;
+        }
+    }
+}

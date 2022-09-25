@@ -1,0 +1,48 @@
+.container{
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(215, 179, 133);
+    text-align: center;
+    margin:  15px auto ;
+    box-sizing: border-box;
+    padding: 25px 40px;
+}
+header{ 
+    height: 100px;
+    /* border: 3px solid white; */
+    margin: 0 0 5px 0;
+    background-color: rgb(181, 92, 92);
+}
+
+.Sidebar-A{
+    width: 200px;
+    height: 340px;
+    background-color: rgb(29, 145, 145);
+    float: left;
+    margin: 0 3px 3px 0;
+}
+section{
+    width: 507px;
+    height: 340px;
+    background-color: aqua;
+    float: left;
+    text-align: center;
+    margin: 0 0 0 3px;
+}
+.Sidebar-B{
+    width: 200px;
+    height: 340px;
+    background-color: chocolate;
+    float: right;
+    
+
+}
+    
+
+footer{
+    height: 100px;
+    background-color: cornflowerblue;
+    clear: both;
+    margin: 5px 0 0 0;
+    
+}

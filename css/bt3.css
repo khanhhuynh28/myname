@@ -1,0 +1,43 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    
+}
+div{
+    background: white;
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    row-gap: 3px ;
+    background-color: rgb(171, 176, 180);
+}
+
+.container-chid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 3px ;
+    background-color:  rgb(171, 176, 180);
+}
+.nav{}
+
+.content{
+   
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color:  rgb(171, 176, 180);
+    gap: 12px;
+    /* grid-column-gap: 12px;
+    grid-row-gap: 12px; */
+}
+
+.main div {
+    background-color: white;
+}
+

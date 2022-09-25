@@ -1,0 +1,20 @@
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+    padding: .5em .5em .6em 1em;
+    text-align: center;
+}
+
+.header{
+    
+}
+tr :hover{
+    background-color: aquamarine;
+}
+tr:nth-child(even) {
+    background-color: bisque;
+}

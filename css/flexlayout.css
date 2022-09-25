@@ -1,0 +1,26 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background: red;
+    height: 90px;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+li {
+    background: gray;
+    padding: 5px;
+    width: 125px;
+    margin: 0 15px 0 0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+   
+}
+.home{
+    /* align-self: baseline; (canh len xun 1 tag) */
+    align-items: center; (canh giữa )
+}

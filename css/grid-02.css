@@ -1,0 +1,9 @@
+.grid__column {
+  display: grid;
+}
+.grid__column--red {
+  background-color: red;
+}
+.grid__column--blue {
+  background-color: black;
+}/*# sourceMappingURL=grid-02.css.map */

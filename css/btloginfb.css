@@ -1,0 +1,50 @@
+html,body {
+    width: 1024px;
+    height: 800px;
+}
+div{
+    background-color: aqua;
+    min-height: 300px;
+    width: 100%;
+}
+.container {
+    display: grid;
+    grid-template-rows: 200px 3fr ;
+    gap: 5px;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+
+.logo{
+    background-color: blue;
+}
+
+.loggin{
+   background-color: blueviolet;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content{
+    background-color: rgb(27, 110, 183);
+}
+
+.sign_up{
+    background-color: burlywood;
+}
+
+.footer{
+    ba
+}

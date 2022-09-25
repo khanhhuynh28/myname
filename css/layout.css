@@ -1,0 +1,30 @@
+main{
+    background: aqua;
+    height: 300px;
+    display: flex;
+}
+section{
+    background-color: bisque;
+}
+
+nav{
+    background-color: aquamarine;
+}
+nav, aside{
+    flex-flow: 25%;
+    
+}
+section{
+    flex-basis: 50%;
+}
+@media screen and (max-width:760px){
+    main{
+        flex-direction:column; (dùng cho di động)
+    }
+    section{
+        order: 1;
+    }
+    aside{
+        order: 2;
+    }
+}

@@ -1,0 +1,27 @@
+.video{
+    /* grid-template-columns: minmax(100px, 200px) 1fr 1fr; */
+
+    /* grid-template-rows: 100px 100px; */
+    /* grid-template: repeat(2, 100px) / repeat(4, 1fr); */
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    background-color: antiquewhite;
+    justify-content: center;
+    /* grid-template:  repeat(2, 100px) / 25% 25% 50%; */
+    
+}
+div{
+    text-align: left;
+    background-color: bisque;
+    /* text-align: center; */
+    padding: 10px;
+    margin: 2px;
+    
+}@media screen and (max-width:760px){
+    .video{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    (cuon trang trn di dong)
+}
